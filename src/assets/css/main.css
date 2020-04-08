@@ -1,0 +1,56 @@
+.full-height {
+    height: 100%;
+}
+
+.image-view {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    height: 90%;
+}
+
+.image-toolbar {
+    width: 100%;
+    align-self: flex-start;
+    position: absolute;
+}
+
+#image-displayed {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.icon-arrows-ccw {
+    float: down;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    cursor: progress;
+}
+
+@media print {
+    header, footer, div.sidebar {
+        display: none;  
+    }
+
+    .pane{
+        border: none;
+    }
+}

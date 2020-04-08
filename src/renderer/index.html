@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilla Club Halterofilia UBB</title>
+    <link rel = "stylesheet" href="../assets/css/photon.min.css">
+    <link rel = "stylesheet" href="../assets/css/main.css">
+    <script src="lib/filterous2-2.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+    
+</head>
+<body>
+
+  <div class="window">
+    <header class="toolbar toolbar-header">  
+      <div class="toolbar-actions">
+        <div class="btn-group">
+          <button id="add-partner-button" class="btn btn-default">
+            <span class="icon icon-user icon-text"></span>
+            Agregar socio
+          </button>
+          <button id="watch-partner-button" class="btn btn-default">
+            <span class="icon icon-user icon-text"></span>
+            Ver listado de socios
+          </button>
+          <button id="pay-partner-button" class="btn btn-default">
+            <span class="icon icon-flag icon-text"></span>
+            Ver cuotas
+          </button>
+          <button id="delete-partner-button" class="btn btn-default">
+            <span class="icon icon-flag icon-text"></span>
+            Borrar base de datos
+          </button>
+          <button class="btn btn-default">
+            <span class="icon icon-search"></span>
+          </button>
+        </div>
+    </header>
+
+    <div id="list-window" class="window-content">
+      <table id="partner-table" class="table-striped">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Rut</th>
+          </tr>
+        </thead>
+        <tbody id="partner-table-body" class="partner-table-body">
+          <!-- Aquí va la data -->
+        </tbody>
+      </table>
+
+      <table id="pay-table" class="table-striped">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Deuda total</th>
+            <th>Pagado</th>
+          </tr>
+        </thead>
+        <tbody id="pay-table-body" class="pay-table-body">
+          <!-- Aquí va la data -->
+        </tbody>
+      </table>
+    </div>
+    <footer class="toolbar toolbar-footer">
+      <h1 class="title">Halterofilia UBB</h1>
+    </footer>
+  </div>
+  
+    
+
+  <script src="./main-window/frontend.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
+
+

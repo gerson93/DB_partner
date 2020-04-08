@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pics</title>
+    <link rel = "stylesheet" href="../assets/css/photon.min.css">
+    <link rel = "stylesheet" href="../assets/css/main.css">
+    <script src= "add-Window/addWindow-frontend.js" type="text/javascript" 
+    charset="utf-8"></script>
+</head>
+<body>
+<div class="window">
+    <header class="toolbar toolbar-header">
+        <h1 class="title">Preferencias</h1>
+    </header>
+    <div class="window-content">
+        <div class="padded-more">
+            <form id="preferences-form">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input id="partner-name" type="text" class="form-control" placeholder="Nombre" required>                    
+                </div>
+                <div class="form-group">
+                    <label>Primer apellido</label>
+                    <input id="partner-last-name" type="text" class="form-control" placeholder="Primer apellido" required>                    
+                </div>
+                <div class="form-group">
+                    <label>Segundo apellido</label>
+                    <input id="partner-second-last-name" type="text" class="form-control" placeholder="Segundo apellido" required>                    
+                </div>
+                <div class="form-group">
+                    <label>Fecha de nacimiento</label>
+                    <input id="partner-birth" type="date" class="form-control" placeholder="Fecha de nacimiento" required>                    
+                </div>
+                <div class="form-group">
+                    <label>Rut</label>
+                    <input id="partner-rut" type="number" class="form-control" placeholder="Rut" required>                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="toolbar toolbar-footer">
+        <div class="toolbar-actions">
+          <button id="cancel-button" class="btn btn-default">
+            Cancelar
+          </button>
+      
+          <button id="save-button" type="submit" form="preferences-form" class="btn btn-primary pull-right">
+            Guardar
+          </button>
+        </div>
+      </footer>
+</div>
+</body>
+</html>
