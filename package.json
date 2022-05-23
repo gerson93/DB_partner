@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.2",
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "dexie-relationships": "^1.2.11",
     "electron-compile": "^6.4.4",
     "electron-debug": "^3.0.1",
